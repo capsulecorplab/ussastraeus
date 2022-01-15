@@ -2,7 +2,7 @@
 
 # Install node modules
 if [ ! -r ./node_modules ]; then
-    docker run --rm --volume $PWD:/src -p 1313:1313 -w "/src" node:16.13.2-alpine3.15 npm i
+    docker run --rm --volume $PWD:/src -p 1313:1313 -w "/src" node:16.13.2-alpine3.15 npm ci
 fi
 
 # Run Hugo build

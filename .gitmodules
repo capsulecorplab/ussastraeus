@@ -1,0 +1,3 @@
+[submodule "themes/programmable-matter"]
+	path = themes/programmable-matter
+	url = git@github.com:startrekthefleet/programmable-matter-hugo-theme.git

@@ -1,0 +1,15 @@
+# hugo
+public/
+resources/
+node_modules/
+tech-doc-hugo
+static/
+.hugo_build.lock
+
+# asciidoctor
+.asciidoctor/
+*.svg
+.DS_Store
+
+# this file should be brought in through submodules and build.sh
+layouts/shortcodes/embed-pdf.html
